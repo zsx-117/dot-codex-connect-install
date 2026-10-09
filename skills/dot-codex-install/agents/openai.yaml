@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dot Codex Connect installation"
+  short_description: "Install and connect an authorized Dot Codex account"
+  default_prompt: "Use $dot-codex-install to help connect my authorized account and Mac."

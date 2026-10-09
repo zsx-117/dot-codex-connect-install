@@ -1,0 +1,6 @@
+.DS_Store
+.env*
+*.pem
+node_modules/
+dist/
+.sites-runtime/
