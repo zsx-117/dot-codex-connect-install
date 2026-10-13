@@ -44,7 +44,7 @@ Codex can check compatibility, download and verify the official Mac package, pre
 
 For manual installation, download the [skill ZIP](https://github.com/zsx-117/dot-codex-connect-install/releases/latest/download/dot-codex-install.zip), unzip it, and put the whole `dot-codex-install` folder in your assistant's skills directory (Codex: `~/.codex/skills/`). Keep `SKILL.md`, `agents/` and `scripts/` together.
 
-The setup helper reuses an existing connector or prepares the verified official download and opens setup after macOS accepts the package. It does not purchase access, read credentials or send installation telemetry. Login and Mac approval stay with you. If macOS blocks the package, setup stops and reports the blocker without changing security settings.
+The setup helper reuses an existing connector or prepares the verified official download and asks macOS to open setup through its normal approval flow. It does not purchase access, read credentials or send installation telemetry. Login and Mac approval stay with you. If macOS blocks the package, setup stops and reports the blocker without changing security settings.
 
 **Current delivery limitation:** the preview package has not completed Developer ID signing and notarization and may be blocked by macOS. Do not purchase on the assumption that unattended installation is available. The assisted setup path still needs a complete new-customer acceptance run.
 

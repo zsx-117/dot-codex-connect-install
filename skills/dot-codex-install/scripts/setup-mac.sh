@@ -30,13 +30,11 @@ if [[ -z "$app" ]]; then
   [[ -d "$app" ]] || { echo 'SETUP_FAILED: expected app missing; preserve staging for review.' >&2; exit 3; }
 fi
 /usr/bin/codesign --verify --deep --strict "$app" || { echo 'PACKAGE_INVALID: do not launch or retry installation.' >&2; exit 3; }
-if ! /usr/sbin/spctl --assess --type execute "$app"; then
-  echo 'SYSTEM_APPROVAL_REQUIRED: macOS did not accept this release. No launch, security changes or background installation occurred.'
-  echo 'Do not repeat downloads. Report this distribution blocker; account/device approval is a separate later step.'
-  exit 4
-fi
+# Let LaunchServices/Gatekeeper handle the real first-open flow. Static spctl
+# assessment is not proof that the OS will refuse an already approved app.
+# Never launch the inner binary, strip quarantine or alter security settings.
 if [[ "$mode" == --check ]]; then
-  echo 'PACKAGE_ACCEPTED: existing app passed checks; account and online status remain unverified.'
+  echo 'PACKAGE_INTEGRITY_VALID: existing app verified; OS approval, account and online status remain unverified.'
   exit 0
 fi
 if [[ "$app" == "$HOME/Downloads/"* ]]; then
