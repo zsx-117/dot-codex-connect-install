@@ -1,4 +1,4 @@
 interface:
-  display_name: "Dot Codex Connect installation"
-  short_description: "Connect Dot to local Codex — paid service, free setup skill"
-  default_prompt: "Use $dot-codex-install to check compatibility, explain paid access, and help connect my account and Mac."
+  display_name: "Dot Codex Connect setup assistant"
+  short_description: "Prepare Mac setup and connect your paid Dot Codex account"
+  default_prompt: "Use $dot-codex-install to prepare and install the official connector, reuse existing connections, and pause only for required login or approval."

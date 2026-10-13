@@ -20,7 +20,7 @@ Your Mac must stay awake and online. This is not a cloud computer rental or a re
 
 You buy access to the **closed-source Dot Codex Connect service**, associated with your signed-in ChatGPT account. The price is a one-time payment, not a subscription. Future MCP updates are included; model usage and your own ChatGPT/Codex plans are separate.
 
-The **installation skill is free to download**. It helps your assistant guide setup; it is not the MCP service, a license key, or a way to bypass payment. This repository contains installation instructions only—no private service source code.
+The **installation skill is free to download**. It helps Codex prepare and carry out setup; it is not the MCP service, a license key, or a way to bypass payment. This repository contains setup instructions and a public download/checksum helper—no private MCP or connector source code.
 
 ## From purchase to your first connection
 
@@ -34,17 +34,17 @@ No manual activation code is needed. Downloading the skill, paying for access, a
 
 ## Install this skill
 
-Ask your coding assistant:
+**Easiest: open [Setup](https://dot.xiaobaituzi.com/setup), click “Copy setup message”, paste it into Codex on your Mac and send it.** Codex installs this skill and follows the setup process.
 
-> Install the `skills/dot-codex-install` skill from `zsx-117/dot-codex-connect-install` on GitHub.
+You can also paste this directly into Codex:
 
-Then ask:
+> Help me set up Dot Codex Connect on this Mac. Install or update the skill from https://github.com/zsx-117/dot-codex-connect-install/tree/main/skills/dot-codex-install and use it. Check compatibility and service access, reuse existing connections, download and verify the official connector, and help install it. Pause for my login, OAuth and system/device approvals. Do not buy access, change security protections, read private chats or send tasks. Check license, MCP connection and Mac online status separately.
 
-> Use $dot-codex-install to check compatibility and help me connect Dot Codex Connect.
+Codex can check compatibility, download and verify the official Mac package, prepare installation, and check the available connection tools. Login and permission approval stay with you. If your client does not let Codex add the MCP automatically, it gives you the exact remaining action. This is assisted setup, not a promise of unattended installation.
 
-Or download the [installation skill ZIP](https://github.com/zsx-117/dot-codex-connect-install/releases/latest/download/dot-codex-install.zip), unzip it, and put the `dot-codex-install` folder in your assistant's skills directory. Keep its `SKILL.md` and `agents` folder together. In Codex, the default location is `~/.codex/skills/`.
+For manual installation, download the [skill ZIP](https://github.com/zsx-117/dot-codex-connect-install/releases/latest/download/dot-codex-install.zip), unzip it, and put the whole `dot-codex-install` folder in your assistant's skills directory (Codex: `~/.codex/skills/`). Keep `SKILL.md`, `agents/` and `scripts/` together.
 
-The skill explains the purchase and setup steps. It does not purchase access, silently approve permissions, read your conversations, or send tasks as part of installation. It sends no automatic installation telemetry.
+The included helper only downloads the official compiled connector and checks its SHA-256. It does not launch software, purchase access, read credentials or send installation telemetry. The skill asks Codex to reuse existing installations and leave macOS security protections enabled.
 
 ## Compatibility and limits
 
