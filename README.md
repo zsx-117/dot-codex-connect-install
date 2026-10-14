@@ -34,6 +34,22 @@ No manual activation code is needed. Downloading the skill, paying for access, a
 
 ## Install this skill
 
+### Install skill files with the skills CLI
+
+If you only want to install the free setup skill first, use the official [vercel-labs/skills CLI](https://github.com/vercel-labs/skills). Run this in the project where you want Codex to use the skill (requires Node.js and npm; CLI version 1.7.2 requires Node.js 22.20.0 or later):
+
+```sh
+DISABLE_TELEMETRY=1 DO_NOT_TRACK=1 npx skills add zsx-117/dot-codex-connect-install --skill dot-codex-install --agent codex
+```
+
+Choose **Project** if prompted for scope. This installs the skill in `./.agents/skills/dot-codex-install/` and writes `skills-lock.json` in that project. Keep `SKILL.md`, `agents/` and `scripts/` together. The command does not request a global installation or change your Codex MCP configuration.
+
+To check discovery without installing, append `--list` to the command. Both examples disable the CLI's optional telemetry, so these checks do not contribute installation events to the skills.sh leaderboard. Repository discovery is not a guarantee of search or leaderboard placement.
+
+The project installation was verified with `skills@1.7.2`; use `npx skills@1.7.2` instead of `npx skills` to reproduce that CLI version. Only skill files are installed: the command does not run the bundled connector setup scripts, download or install the Mac connector, sign you in, purchase access, or establish an MCP connection. The **service remains paid and closed-source**. Skill installation does not expand the service compatibility listed below.
+
+### Continue with assisted service setup
+
 **Easiest: open [Setup](https://dot.xiaobaituzi.com/setup), click “Copy setup message”, paste it into Codex on your Mac and send it.** Codex installs this skill and follows the setup process.
 
 You can also paste this directly into Codex:
