@@ -4,7 +4,7 @@
 
 Keep the conversation with Dot while your connected Mac does the development work. Ask Dot to pass an authorized task to a chosen local Codex conversation, then bring its response back—without copying messages between apps.
 
-**Purchases are now open · $9.80 USD once · Permanent account access · Future MCP updates included**
+**Purchases are now open · $4.99 USD once · Permanent account access · Future MCP updates included**
 
 [Buy permanent access](https://dot.xiaobaituzi.com/?utm_source=github&utm_campaign=readme#purchase) · [Installation guide](https://dot.xiaobaituzi.com/setup) · [Check your account](https://dot.xiaobaituzi.com/account)
 
@@ -25,7 +25,7 @@ The **installation skill is free to download**. It helps Codex prepare and carry
 ## From purchase to your first connection
 
 1. **Check compatibility first.** You need an Apple silicon Mac, local Codex, and a ChatGPT client that supports adding custom MCP servers. The service is not yet in the public plugin directory. If your client does not offer custom MCP connections, do not purchase for that client yet.
-2. **Buy on the official website.** Sign in with the ChatGPT account you intend to use, then complete the $9.80 checkout. Purchase through the website so the order can be linked to your account.
+2. **Buy on the official website.** Sign in with the ChatGPT account you intend to use, then complete the $4.99 checkout. Purchase through the website so the order can be linked to your account.
 3. **Check your access.** Return to [My account](https://dot.xiaobaituzi.com/account). Access activates after the payment is verified. If it is still pending, use **Check payment status**; do not pay again. Contact support if verification cannot finish.
 4. **Connect the MCP and your Mac.** Follow [the setup guide](https://dot.xiaobaituzi.com/setup), use the same account, and complete the login and Mac-connection approval yourself. Ask Codex to use the installation skill: it prepares the connector for you, so you do not need to download and move it manually. You still confirm login and device access.
 5. **Confirm access and connection.** Ask Dot to check your account access and Mac status. Then choose a conversation and authorize the task you want to run.
