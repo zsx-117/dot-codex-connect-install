@@ -9,7 +9,7 @@ Help the user connect the official Dot Codex Connect service to their own ChatGP
 
 ## Purchase and account access
 
-Purchases are open at [the official website](https://dot.xiaobaituzi.com/): USD 9.80 once for permanent account access and future MCP updates. This skill is free to download; the service is paid. Model usage and ChatGPT/Codex plans are separate. Verify current price and availability on the official site before advising a purchase.
+Purchases are open at [the official website](https://dot.xiaobaituzi.com/): USD 4.99 once for permanent account access and future MCP updates. This skill is free to download; the service is paid. Model usage and ChatGPT/Codex plans are separate. Verify current price and availability on the official site before advising a purchase.
 
 Check compatibility before directing a user to buy: an Apple silicon Mac, local Codex and a client supporting custom MCP connections are required. The public plugin directory does not currently list the service. Do not suggest purchasing if the user cannot add custom MCP connections.
 
