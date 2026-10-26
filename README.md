@@ -1,3 +1,9 @@
+> **New source repository / 新源码仓库:** [zsx-117/dot-codex-connect](https://github.com/zsx-117/dot-codex-connect)
+>
+> For the MIT-licensed, self-hosted source preview and current source documentation, start at the new repository. Its core has no purchase gate, but real Dot login and end-to-end operation have not been validated; it is not a production-ready, plug-and-play release. The legacy installation instructions below describe the separate paid, closed-source service—not the new source preview.
+>
+> 如需 MIT 许可的自托管源码预览及当前源码文档，请前往新仓库。源码核心无购买门槛，但真实 Dot 登录及端到端运行尚未验证；它不是生产就绪、开箱即用的版本。下方保留的旧版安装说明面向独立的付费闭源服务，并非新源码预览。
+
 # Dot Codex Connect
 
 **Give Dot the task. Continue it in Codex. Get the reply back.**
